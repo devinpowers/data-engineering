@@ -19,7 +19,7 @@ class Project2Tests(unittest.TestCase):
 
     def test_insertion_sort(self):
         # Test with basic set of integers.
-        data = [7, 4, 1, 0, 8, 9, 3, 2, 12]
+        data = [7, 4, 1, 0, 8, 9, 3, 2, 12, -4]
         result = data
         insertion_sort(result)
         expected = sorted(data)
